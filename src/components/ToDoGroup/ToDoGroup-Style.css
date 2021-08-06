@@ -1,0 +1,23 @@
+.wrapper {
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+
+.toDoGroup-title {
+  margin-bottom: 10px;
+}
+
+.add-button {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.todo-input {
+  border: none;
+  border-bottom: solid thin black;
+  outline: none;
+  padding: 2px;
+}

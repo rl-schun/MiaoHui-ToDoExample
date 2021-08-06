@@ -1,0 +1,34 @@
+.item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.item-wrapper:hover {
+  cursor: pointer;
+}
+
+.item-name-done {
+  text-decoration: line-through;
+}
+
+.item-name-notdone {
+  align-self: center;
+}
+
+.checkbox-done {
+  min-width: 10px;
+  min-height: 10px;
+  border: thin black solid;
+  background-color: black;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.checkbox-notdone {
+  min-width: 10px;
+  min-height: 10px;
+  border: thin black solid;
+  background-color: white;
+  border-radius: 2px;
+  margin-right: 5px;
+}
